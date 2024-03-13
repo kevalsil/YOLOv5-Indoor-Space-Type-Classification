@@ -1,6 +1,7 @@
 <div align="center">
 
-# YOLOv5-Indoor-Space-Type-Classification
+YOLOv5-Indoor-Space-Type-Classification
+=============
 
 ## 개요 | Outline
 
@@ -9,17 +10,40 @@ This program uses [YOLOv5](https://docs.ultralytics.com/yolov5)🚀. When you at
 
 ## 사용법 | How to use
 
-매우 간단합니다!<br>
-It's very simple!
-1. "YOLOv5-Indoor-Space-Type-Classification.ipynb"를 실행하세요. | Open the "YOLOv5-Indoor-Space-Type-Classification.ipynb" first.
-2. 내용을 확인하고 안내된 과정에 따라 실행 버튼을 누르세요. | Check the contents and press the Run button according to the guided process.
-3. 결과를 확인하세요! | Check the results!
+1. "YOLOv5-Indoor-Space-Type-Classification.ipynb"를 실행하세요.<br>Open the "YOLOv5-Indoor-Space-Type-Classification.ipynb" first.
+2. 내용을 확인하고 안내된 과정에 따라 실행 버튼을 누르세요.<br>Check the contents and press the Run button according to the guided process.
+3. 결과를 확인하세요!<br>Check the results!
 
-![result](./img/result.png)
+<div>
+  <img src="./img/test.jpg" width="400px" height="auto">
+  <img src="./img/result.png" width="400px" height="auto">
+</div>
 
 ## 기타자료 | Other data
 
 <details open>
-<summary>Heatmap</summary>
-분석에 사용된 자료를 볼 수 있습니다. heatmap 문서를 확인하세요.
+  <summary>Recognition Rate</summary>
+  <table border="1" table-layout="fixed">
+  	<th align="center">Livingroom</th>
+  	<th align="center">Kitchen</th>
+    <th align="center">Library</th>
+  	<th align="center">Bedroom</th>
+    <th align="center">Bathroom</th>
+  	<th align="center">Average</th>
+  	<tr align="center"><!-- 첫번째 줄 시작 -->
+      <td>96.77%</td>
+      <td>93.10%</td>
+      <td>67.86%</td>
+      <td>70.00%</td>
+      <td>92.86%</td>
+      <td>
+        <span style="color:red">84.12%</span>
+      </td>
+  	</tr><!-- 첫번째 줄 끝 -->
+  </table>
+</details>
+
+<details close>
+  <summary>Heatmap</summary>
+  분석에 사용된 자료를 볼 수 있습니다. heatmap 문서를 확인하세요.
 </details>
