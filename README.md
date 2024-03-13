@@ -15,6 +15,8 @@ It's very simple!
 2. 내용을 확인하고 안내된 과정에 따라 실행 버튼을 누르세요. | Check the contents and press the Run button according to the guided process.
 3. 결과를 확인하세요! | Check the results!
 
+![result](./img/result.png)
+
 ## 기타자료 | Other data
 
 <details open>
