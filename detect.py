@@ -39,7 +39,6 @@ from pathlib import Path
 import torch
 import csv
 import math
-import mathfunction
 import numpy as np
 from numpy import dot
 from numpy.linalg import norm
@@ -345,10 +344,12 @@ def run(
                     write = csv.writer(file)
                     write.writerow(test)'''
                 
-                if not os.path.exists('room_data.csv'):
-                  with open('room_data.csv','w') as file:
-                    write = csv.writer(file)
-                    write.writerow(testname)
+                with open('room_data.csv','w') as file:
+                  write = csv.writer(file)
+                  write.writerow(testname)
+                with open('room_data.csv','a') as file:
+                  write = csv.writer(file)
+                  write.writerow(test)
                     
 
                 # Write results
